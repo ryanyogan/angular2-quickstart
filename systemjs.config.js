@@ -28,7 +28,7 @@
   ];
 
   packageNames.forEach(function(pkgName) {
-    packages[pgkName] = { main: 'index.js', defaultExtension: 'js' };
+    packages[pkgName] = { main: 'index.js', defaultExtension: 'js' };
   });
 
   var config = {
